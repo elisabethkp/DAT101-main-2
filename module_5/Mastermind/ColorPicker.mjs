@@ -25,6 +25,7 @@ export class TColorPicker extends libSprite.TSpriteDraggable {
     this.#hasMoved = false;
     this.#snapIndex = -1;
   }
+  
 
   onCanDrop(){
     return false;
